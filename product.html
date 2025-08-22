@@ -1,161 +1,175 @@
 <!doctype html>
 <html lang="pt-br">
+
 <head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Thaispetacular — Produto</title>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css"/>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Thaispetacular — Produto</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Manrope:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
 
-<header class="site-header">
-  <div class="container navbar">
-    <a class="brand" href="index.html"><img src="assets/logo.svg" alt="Thaispetacular logo"/></a>
-    <form class="searchbar" action="search.html" method="get">
-      <input type="text" name="q" placeholder="Buscar acessórios minimalistas..." aria-label="Buscar"/>
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="brand" href="index.html"><img src="Groom (1).png" alt="" style="height: 80px;" /></a> <input type="text"
+        name="q" placeholder="Buscar acessórios minimalistas..." aria-label="Buscar" />
       <button class="btn btn-primary" type="submit">Buscar</button>
-    </form>
-    <div class="actions">
-      <a href="signup.html" class="btn btn-ghost">Conta</a>
-      <a href="cart.html" class="btn btn-primary">Carrinho</a>
-    </div>
-  </div>
-  <div class="container">
-    <nav class="primary-nav">
-      <a href="category.html">Colares</a>
-      <a href="category.html">Brincos</a>
-      <a href="category.html">Pulseiras</a>
-      <a href="about.html">Quem Somos</a>
-      <a href="contact.html">Contato</a>
-    </nav>
-  </div>
-</header>
-
-<main>
-
-<section class="container section">
-  <div class="grid" style="grid-template-columns:1fr 1fr;gap:28px">
-    <div>
-      <div class="card product-media" style="margin-bottom:10px"></div>
-      <div style="display:flex;gap:10px">
-        <div class="card product-media" style="aspect-ratio:1/1;width:90px"></div>
-        <div class="card product-media" style="aspect-ratio:1/1;width:90px"></div>
-        <div class="card product-media" style="aspect-ratio:1/1;width:90px"></div>
+      </form>
+      <div class="actions">
+        <a href="signup.html" class="btn btn-ghost">Conta</a>
+        <a href="cart.html" class="btn btn-primary">Carrinho</a>
       </div>
     </div>
-    <div>
-      <h1>Colar Aura</h1>
-      <div class="lead">banho de ouro • hipoalergênico</div>
-      <div class="price" style="margin:8px 0">R$ 219,00</div>
-      <div style="display:flex;gap:10px;margin:10px 0">
-        <select class="input" style="max-width:200px">
-          <option>Cor — Dourado</option>
-          <option>Cor — Prateado</option>
-        </select>
-        <div class="quantity">
-          <button aria-label="Diminuir">−</button>
-          <input type="number" value="1" min="1"/>
-          <button aria-label="Aumentar">+</button>
+    <div class="container">
+      <nav class="primary-nav">
+        <a href="category.html">Colares</a>
+        <a href="category.html">Brincos</a>
+        <a href="category.html">Pulseiras</a>
+        <a href="about.html">Quem Somos</a>
+        <a href="contact.html">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="container section">
+      <div class="grid" style="grid-template-columns:1fr 1fr;gap:28px">
+        <div>
+          <div class="card product-media" style="margin-bottom:10px"></div>
+          <div style="display:flex;gap:10px">
+            <div class="card product-media" style="aspect-ratio:1/1;width:90px"></div>
+            <div class="card product-media" style="aspect-ratio:1/1;width:90px"></div>
+            <div class="card product-media" style="aspect-ratio:1/1;width:90px"></div>
+          </div>
+        </div>
+        <div>
+          <h1>Colar Aura</h1>
+          <div class="lead">banho de ouro • hipoalergênico</div>
+          <div class="price" style="margin:8px 0">R$ 219,00</div>
+          <div style="display:flex;gap:10px;margin:10px 0">
+            <select class="input" style="max-width:200px">
+              <option>Cor — Dourado</option>
+              <option>Cor — Prateado</option>
+            </select>
+            <div class="quantity">
+              <button aria-label="Diminuir">−</button>
+              <input type="number" value="1" min="1" />
+              <button aria-label="Aumentar">+</button>
+            </div>
+          </div>
+          <div style="display:flex;gap:10px">
+            <a class="btn btn-primary" href="cart.html">Comprar</a>
+            <a class="btn btn-ghost" href="#">Adicionar à lista</a>
+          </div>
+
+          <div class="accordion" style="margin-top:16px">
+            <details open>
+              <summary>Descrição</summary>
+              <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec placerat elit.</p>
+              </div>
+            </details>
+            <details>
+              <summary>Materiais & Cuidados</summary>
+              <div class="panel">
+                <p>Evite contato com produtos químicos. Armazene em local seco.</p>
+              </div>
+            </details>
+            <details>
+              <summary>Entrega & Devolução</summary>
+              <div class="panel">
+                <p>Envio em até 2 dias úteis. Devolução em 7 dias após recebimento.</p>
+              </div>
+            </details>
+          </div>
         </div>
       </div>
-      <div style="display:flex;gap:10px">
-        <a class="btn btn-primary" href="cart.html">Comprar</a>
-        <a class="btn btn-ghost" href="#">Adicionar à lista</a>
+    </section>
+
+    <section class="container section">
+      <h2>Combina com</h2>
+      <div class="grid grid-4">
+
+        <article class="card">
+          <div class="product-media">
+            <img src="sarah-dao-ajQCs8RMBgA-unsplash.jpg" alt="">
+          </div>
+          <div class="p">
+            <h3 class="product-title">Peça 1</h3>
+            <div class="price">R$ 99,00</div>
+            <a class="btn btn-primary" href="product.html">Ver</a>
+          </div>
+        </article>
+
+
+        <article class="card">
+          <div class="product-media"></div>
+          <div class="p">
+            <h3 class="product-title">Peça 2</h3>
+            <div class="price">R$ 119,00</div>
+            <a class="btn btn-primary" href="product.html">Ver</a>
+          </div>
+        </article>
+
+
+        <article class="card">
+          <div class="product-media"></div>
+          <div class="p">
+            <h3 class="product-title">Peça 3</h3>
+            <div class="price">R$ 139,00</div>
+            <a class="btn btn-primary" href="product.html">Ver</a>
+          </div>
+        </article>
+
+
+        <article class="card">
+          <div class="product-media"></div>
+          <div class="p">
+            <h3 class="product-title">Peça 4</h3>
+            <div class="price">R$ 159,00</div>
+            <a class="btn btn-primary" href="product.html">Ver</a>
+          </div>
+        </article>
+
       </div>
+    </section>
 
-      <div class="accordion" style="margin-top:16px">
-        <details open>
-          <summary>Descrição</summary>
-          <div class="panel"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec placerat elit.</p></div>
-        </details>
-        <details>
-          <summary>Materiais & Cuidados</summary>
-          <div class="panel"><p>Evite contato com produtos químicos. Armazene em local seco.</p></div>
-        </details>
-        <details>
-          <summary>Entrega & Devolução</summary>
-          <div class="panel"><p>Envio em até 2 dias úteis. Devolução em 7 dias após recebimento.</p></div>
-        </details>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <img src="Groom (1).png" alt="Aurora Bijoux" style="height: 60px;" />
+        <p class="lead" style="margin-top:8px">Acessórios modernos e minimalistas com design limpo e elegante de hoje
+          para todo o sempre.</p>
+      </div>
+      <div>
+        <h3>Loja</h3>
+        <a href="category.html">Colares</a><br />
+        <a href="category.html">Brincos</a><br />
+        <a href="category.html">Pulseiras</a>
+      </div>
+      <div>
+        <h3>Institucional</h3>
+        <a href="about.html">Quem Somos</a><br />
+        <a href="contact.html">Contato</a>
+      </div>
+      <div>
+        <h3>Ajuda</h3>
+        <a href="#">Envio & Devolução</a><br />
+        <a href="#">FAQ</a><br />
+        <a href="#">Privacidade</a>
       </div>
     </div>
-  </div>
-</section>
-
-<section class="container section">
-  <h2>Combina com</h2>
-  <div class="grid grid-4">
-
-<article class="card">
-  <div class="product-media"></div>
-  <div class="p">
-    <h3 class="product-title">Peça 1</h3>
-    <div class="price">R$ 99,00</div>
-    <a class="btn btn-primary" href="product.html">Ver</a>
-  </div>
-</article>
-
-
-<article class="card">
-  <div class="product-media"></div>
-  <div class="p">
-    <h3 class="product-title">Peça 2</h3>
-    <div class="price">R$ 119,00</div>
-    <a class="btn btn-primary" href="product.html">Ver</a>
-  </div>
-</article>
-
-
-<article class="card">
-  <div class="product-media"></div>
-  <div class="p">
-    <h3 class="product-title">Peça 3</h3>
-    <div class="price">R$ 139,00</div>
-    <a class="btn btn-primary" href="product.html">Ver</a>
-  </div>
-</article>
-
-
-<article class="card">
-  <div class="product-media"></div>
-  <div class="p">
-    <h3 class="product-title">Peça 4</h3>
-    <div class="price">R$ 159,00</div>
-    <a class="btn btn-primary" href="product.html">Ver</a>
-  </div>
-</article>
-
-  </div>
-</section>
-
-</main>
-
-<footer class="site-footer">
-  <div class="container footer-grid">
-    <div>
-      <img src="assets/logo.svg" alt="Thaispetacular" style="height:28px"/>
-      <p class="lead" style="margin-top:8px">Acessórios modernos e minimalistas com design limpo e elegante de hoje para todo o sempre.</p>
-    </div>
-    <div>
-      <h3>Loja</h3>
-      <a href="category.html">Colares</a><br/>
-      <a href="category.html">Brincos</a><br/>
-      <a href="category.html">Pulseiras</a>
-    </div>
-    <div>
-      <h3>Institucional</h3>
-      <a href="about.html">Quem Somos</a><br/>
-      <a href="contact.html">Contato</a>
-    </div>
-    <div>
-      <h3>Ajuda</h3>
-      <a href="#">Envio & Devolução</a><br/>
-      <a href="#">FAQ</a><br/>
-      <a href="#">Privacidade</a>
-    </div>
-  </div>
-  <div class="container" style="margin-top:18px;font-size:13px;color:var(--muted)">© 2025 Thaispetacular. Todos os direitos reservados.</div>
-</footer>
+    <div class="container" style="margin-top:18px;font-size:13px;color:var(--muted)">© 2025 Aurora Bijoux. Todos os
+      direitos reservados.</div>
+  </footer>
 
 </body>
+
 </html>
